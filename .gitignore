@@ -1,0 +1,26 @@
+# ── Modelos grandes (superan el límite de 100 MB de GitHub) ─────────────────
+assets/handwritten_expert.pt
+
+# ── Índice vectorial generado (binario, se regenera con helpers/) ────────────
+support_data/index/
+
+# ── Imágenes del corpus de soporte (peso elevado, no son código) ─────────────
+support_data/images/
+
+# ── Inputs del usuario (fotos a analizar, no deben subirse) ──────────────────
+input/
+
+# ── Outputs generados por el pipeline (se regeneran ejecutando los notebooks) ─
+output/
+
+# ── Scripts temporales de mantenimiento ──────────────────────────────────────
+_*.py
+
+# ── Archivos de sistema Windows ───────────────────────────────────────────────
+desktop.ini
+Thumbs.db
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
