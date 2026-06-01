@@ -325,8 +325,7 @@ Con ~200 fotos el grafo mostrará clusters por época:
 |---------------|-----------|----------------------|------------------------------------------|
 | Transcripción | ✅ Activo | `01_transcripcion`   | Texto manuscrito extraído por HTR        |
 | Año           | ✅ Activo | `02_prediccion_año`  | Año estimado por similitud visual (CLIP) |
-| Postura       | 🔜 Futuro | `04_postura`         | Detección de pose corporal               |
-| Vestimenta    | 🔜 Futuro | `04_vestimenta`      | Clasificación de tipo de ropa            |
+| Vestimenta    | ✅ Activo | `03_deteccion_vestimenta`      | Clasificación de tipo de ropa            |
 
 ---
 
